@@ -1,0 +1,41 @@
+.parent{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+/*Its for Row only : justify-content: end;
+It's also called Horizontally
+Justify content : if want to left to right , right to left , center ny horizontally
+*/
+justify-content: center; 
+/*Its for Row only : justify-content: start;
+It's also called Horizontally
+*/
+/* justify-content: center;
+justify-content: space-evenly;
+justify-content: space-between;
+justify-content: space-around; */
+/*Its for Row only : justify-content: center;
+It's also called Horizontally
+*/
+align-items: center;
+/*Its use as vertically like top , bottom,center, stretch*/
+align-items: center;
+background-color: navajowhite;
+height: 500px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+}
+.red{
+    background-color: aquamarine;
+}
+.blue{
+    background-color: blanchedalmond;
+}
+.green{
+    background-color: mediumseagreen;
+}
+.orenge{
+    background-color: rgb(239, 73, 13);
+}

@@ -1,0 +1,29 @@
+.box{
+    background-color: rgb(28, 231, 177);
+    width: 200px;
+    height: 140px;
+    /*Padding ==> create space inside element
+    padding: 10px //top-bottom-right-left
+    padding: 0px 10px; //top bottom left-right
+    padding: 10px 15px 25px;  //top left-right bottom
+    */
+    padding: 25px;
+    /*
+    Border ==> surrounding line
+    Color with style
+    border width;
+    
+    border: 5px red solid;
+    */
+    border-left: greenyellow 2px dotted;
+    border-right: blanchedalmond 2px dotted;
+    border-top: goldenrod 2px dashed;
+    border-bottom: navajowhite 2px dotted;
+
+    /*Margin ==> surrounding space to a element*/
+    margin: 30px; /*top bottom left-right */
+    margin: 20px 20px; /* top-bottom left-right*/
+    margin: 5px 10px 15px; /*top left-right bottom*/
+    margin: 5px 10px 15px 25px; /*top right bottom left*/
+
+}
